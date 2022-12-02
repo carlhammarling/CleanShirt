@@ -270,6 +270,8 @@ main.home .homeBanner #hangOut {
   main.home .homeBanner #girlPower {
     display: none;
   }
+}
+@media (min-width: 800px) {
   main.home .homeBanner #hangOut {
     display: flex;
     height: 200px;
