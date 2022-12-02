@@ -363,7 +363,7 @@ main.home .shopNow {
 }
 @media (min-width: 650px) {
   main.home .shopNow {
-    max-height: 420px;
+    max-height: 440px;
   }
 }
 @media (min-width: 800px) {
@@ -421,19 +421,19 @@ main.home .shopNow .btnShop a {
 main.home .shopNow .btnShop:hover {
   transform: scale(0.98);
 }
-main.home #shopBanner1 {
-  display: none;
-}
-@media (min-width: 550px) {
-  main.home #shopBanner1 {
-    display: flex;
-  }
-}
 main.home #shopBanner3 {
   display: none;
 }
-@media (min-width: 950px) {
+@media (min-width: 550px) {
   main.home #shopBanner3 {
+    display: flex;
+  }
+}
+main.home #shopBanner1 {
+  display: none;
+}
+@media (min-width: 950px) {
+  main.home #shopBanner1 {
     display: flex;
   }
 }

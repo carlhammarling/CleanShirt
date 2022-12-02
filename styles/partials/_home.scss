@@ -121,7 +121,7 @@
         max-height: 400px;
         }
         @media (min-width: 650px) {                                   
-        max-height: 420px;
+        max-height: 440px;
         }
         @media (min-width: 800px) {                                   
         max-height: 550px;
@@ -153,14 +153,14 @@
         }
     }
 
-    #shopBanner1 {
+    #shopBanner3 {
         display: none;
         
         @media (min-width: 550px) {
             display: flex;
         }
     }
-    #shopBanner3 {
+    #shopBanner1 {
         display: none;
         @media (min-width: 950px) {
             display: flex;
