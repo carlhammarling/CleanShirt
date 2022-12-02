@@ -1,6 +1,7 @@
 
 @mixin header {
     @include flex(column, flex-start, stretch);
+    z-index: 2;
 
     .top {
         @include flex(row, space-between, stretch);

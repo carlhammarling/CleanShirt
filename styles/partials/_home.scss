@@ -107,7 +107,7 @@
     .shopNow {
         @include flex(column, flex-start, center);
         position: relative;
-        z-index: -1;
+        
 
                                                           // FIXA BOTTEN
 
@@ -138,6 +138,7 @@
             overflow: hidden;
             object-fit: cover;
             object-position: top;
+        
         }
                                                              // FRAM HIt
         .btnShop {
