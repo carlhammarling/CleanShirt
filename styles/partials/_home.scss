@@ -23,7 +23,7 @@
             display: none;
             margin-left: 1rem;
         }
-        @media (min-width: 950px) {
+        @media (min-width: 650px) {
             @include flex(row, space-between, stretch);
             #girlPower {
                 display: none;
@@ -32,6 +32,9 @@
                 display: flex;
                 height: 200px;
             }
+        }
+        @media (min-width: 950px) {
+           
         }
 
         @media (min-width: 1100px) {
@@ -43,6 +46,7 @@
         .slogan {
             padding: 1rem;
             margin-bottom: 1rem;
+            min-width: 325px;
             span {
                 color: white;
                 background: $darkGrey;
@@ -115,7 +119,7 @@
         max-height: 400px;
         }
         @media (min-width: 650px) {                                   
-        max-height: 450px;
+        max-height: 420px;
         }
         @media (min-width: 800px) {                                   
         max-height: 550px;
@@ -147,14 +151,14 @@
         }
     }
 
-    #shopBanner3 {
+    #shopBanner1 {
         display: none;
         
         @media (min-width: 550px) {
             display: flex;
         }
     }
-    #shopBanner1 {
+    #shopBanner3 {
         display: none;
         @media (min-width: 950px) {
             display: flex;

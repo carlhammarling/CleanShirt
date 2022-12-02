@@ -260,7 +260,7 @@ main.home .homeBanner #hangOut {
   display: none;
   margin-left: 1rem;
 }
-@media (min-width: 950px) {
+@media (min-width: 650px) {
   main.home .homeBanner {
     display: flex;
     flex-direction: row;
@@ -283,6 +283,7 @@ main.home .homeBanner #hangOut {
 main.home .homeBanner .slogan {
   padding: 1rem;
   margin-bottom: 1rem;
+  min-width: 325px;
 }
 main.home .homeBanner .slogan span {
   color: white;
@@ -360,7 +361,7 @@ main.home .shopNow {
 }
 @media (min-width: 650px) {
   main.home .shopNow {
-    max-height: 450px;
+    max-height: 420px;
   }
 }
 @media (min-width: 800px) {
@@ -418,19 +419,19 @@ main.home .shopNow .btnShop a {
 main.home .shopNow .btnShop:hover {
   transform: scale(0.98);
 }
-main.home #shopBanner3 {
-  display: none;
-}
-@media (min-width: 550px) {
-  main.home #shopBanner3 {
-    display: flex;
-  }
-}
 main.home #shopBanner1 {
   display: none;
 }
-@media (min-width: 950px) {
+@media (min-width: 550px) {
   main.home #shopBanner1 {
+    display: flex;
+  }
+}
+main.home #shopBanner3 {
+  display: none;
+}
+@media (min-width: 950px) {
+  main.home #shopBanner3 {
     display: flex;
   }
 }
